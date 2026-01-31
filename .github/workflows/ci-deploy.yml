@@ -65,6 +65,8 @@ jobs:
           port: ${{ secrets.SERVER_SSH_PORT }}
           script: |
             mkdir -p /containers/${{ needs.build-and-push.outputs.repo_name_lower }}
+            # remove any existing file or directory named docker-compose.yml so SCP can write the file
+            rm -rf /containers/${{ needs.build-and-push.outputs.repo_name_lower }}/docker-compose.yml
 
       - name: Copy docker-compose to server
         uses: appleboy/scp-action@v0.1.4
