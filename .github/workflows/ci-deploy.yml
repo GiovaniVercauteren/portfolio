@@ -55,6 +55,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+        # TODO: Check if this step is necessary
       - name: Ensure remote directory
         uses: appleboy/ssh-action@v0.1.8
         with:
