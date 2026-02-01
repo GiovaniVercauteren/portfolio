@@ -1,7 +1,7 @@
 export default function AboutMe() {
     return (
         <section id="about" className="mb-16 scroll-mt-16">
-            <div className="sticky top-0 z-20 w-screen bg-sky-100/75 dark:bg-slate-900/75 backdrop-blur-xs py-4 lg:sr-only">
+            <div className="sticky top-0 z-20 w-screen -mx-6 px-6 bg-sky-100/75 dark:bg-slate-900/75 backdrop-blur-xs py-4 lg:sr-only">
                 <h1 className="font-semibold uppercase">About</h1>
             </div>
             <p className="text-slate-500 dark:text-slate-400 lg:pb-12">

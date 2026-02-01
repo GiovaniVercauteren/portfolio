@@ -1,6 +1,6 @@
 export default function TitleName({ name, title, description }: { name?: string; title?: string; description?: string }) {
     return (
-        <div className="flex flex-col min-w-sm gap-2">
+        <div className="flex flex-col max-w-sm gap-2">
             <h1 className="text-4xl font-bold">
                 { name }
             </h1>

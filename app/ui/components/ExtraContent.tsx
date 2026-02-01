@@ -5,7 +5,7 @@ import { SquareArrowOutUpRight } from "lucide-react";
 export default function ExtraContent() {
     return (
         <div>
-            <div className="sticky top-0 z-20 w-screen bg-sky-100/75 dark:bg-slate-900/75 backdrop-blur-xs py-4 lg:sr-only">
+            <div className="sticky top-0 z-20 -mx-6 px-6 w-screen bg-sky-100/75 dark:bg-slate-900/75 backdrop-blur-xs py-4 lg:sr-only">
                 <h1 className="font-semibold uppercase">Experience</h1>
             </div>
             {
