@@ -2,7 +2,7 @@ import { myExperiences } from "@/app/lib/data";
 import MyExperience from "./MyExperience";
 import { SquareArrowOutUpRight } from "lucide-react";
 
-export default function ExtraContent() {
+export default function Experiences() {
     return (
         <div>
             <div className="sticky top-0 z-20 -mx-6 px-6 w-screen bg-sky-100/75 dark:bg-slate-900/75 backdrop-blur-xs py-4 lg:sr-only">

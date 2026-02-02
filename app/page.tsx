@@ -1,6 +1,6 @@
 import AboutMe from "./ui/components/AboutMe";
 import ContactLinks from "./ui/components/ContactLinks";
-import ExtraContent from "./ui/components/ExtraContent";
+import Experiences from "./ui/components/Experiences";
 import Footer from "./ui/components/Footer";
 import TitleName from "./ui/components/TitleName";
 
@@ -13,7 +13,7 @@ export default function Home() {
       </header>
       <main className=" lg:w-[60%] lg:py-12 pt-16">
         <AboutMe />
-        <ExtraContent />
+        <Experiences />
         <Footer />
       </main>
     </div>
