@@ -20,7 +20,7 @@ export default function LightOrbFrame() {
     }, []);
 
     return (
-        <div className="absolute top-0 left-0 w-screen h-screen" style={{background: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(29, 78, 216, 0.15), transparent 400px)`}}>
+        <div className="fixed pointer-events-none top-0 left-0 w-screen h-screen" style={{background: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(29, 78, 216, 0.15), transparent 400px)`}}>
         </div>
     );
 }
