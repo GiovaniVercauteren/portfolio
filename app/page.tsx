@@ -1,8 +1,9 @@
 import AboutMe from "./ui/components/AboutMe";
 import ContactLinks from "./ui/components/ContactLinks";
-import Experiences from "./ui/components/Experiences";
 import Footer from "./ui/components/Footer";
+import MySkills from "./ui/components/MySkills";
 import TitleName from "./ui/components/TitleName";
+import MyExperiences from "./ui/components/MyExperiences";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
       </header>
       <main className=" lg:w-[60%] lg:py-12 pt-16">
         <AboutMe />
-        <Experiences />
+        <MyExperiences />
+        <MySkills />
         <Footer />
       </main>
     </div>
